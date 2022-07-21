@@ -1,0 +1,8 @@
+import pandas as pd
+
+tabela = pd.read_csv("/content/drive/MyDrive/MINICURSO ANÁLISE DE DADOS COM PYTHON/Cópia de ClientesBanco.csv",encoding = "latin1")
+tabela = tabela.drop("CLIENTNUM",axis=1)
+display(tabela)
+
+
+#\inicio de seção importando o Pandas e abrindo a tabela
