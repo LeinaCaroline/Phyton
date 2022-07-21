@@ -1,0 +1,4 @@
+import plotly.express as px
+
+grafico = px.histogram(tabela, x="Idade", color = "Categoria")
+grafico.show()
