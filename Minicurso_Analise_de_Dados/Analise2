@@ -1,0 +1,5 @@
+qtde_categoria = tabela["Categoria"].value_counts()
+display(qtde_categoria)
+
+qtde_categoria_perc = tabela["Categoria"].value_counts(normalize=True)
+display(qtde_categoria_perc)
