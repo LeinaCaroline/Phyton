@@ -1,0 +1,4 @@
+tabela = tabela.dropna()
+display(tabela.info())
+
+display(tabela.describe().round(1))
