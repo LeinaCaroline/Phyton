@@ -1,9 +1,6 @@
 import pandas as pd
 import win32com.client as win32
 
-//casa
-
-
 
 tabela_vendas = pd.read_excel('Vendas.xlsx')
 
